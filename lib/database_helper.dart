@@ -20,7 +20,7 @@ class DatabaseHelper {
       onCreate: (banco, versao) {
         return banco.execute('''
                               create table veiculo (
-                                 idveiculo integer primary key autoincrement,
+                                 idveiculo integer.   primary key autoincrement,
                                  placa text,
                                  modelo text
                               );
