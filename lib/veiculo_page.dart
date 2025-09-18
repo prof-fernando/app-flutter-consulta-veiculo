@@ -17,9 +17,9 @@ class _VeiculoPageState extends State<VeiculoPage> {
       appBar: AppBar(),
       body: ElevatedButton(
         onPressed: () async {
-          print('c;icou');
-          int id = await _db.gravar('abc-1234', 'fusca');
-          print('od gerado $id');
+          // print('c;icou');
+          // int id = await _db.gravar('abc-1234', 'fusca');
+          // print('id gerado $id');
         },
         child: Text('Salvar'),
       ),

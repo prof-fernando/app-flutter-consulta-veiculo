@@ -6,7 +6,7 @@ void main() {
   runApp(
     MaterialApp(
       title: 'Veiculos',
-      home: VeiculoPage(),
+      home: VeiculoListPage(),
     ),
   );
 }
